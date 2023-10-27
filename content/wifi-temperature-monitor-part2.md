@@ -10,12 +10,12 @@ Since writing the first WiFi temperature monitor post, I’ve implemented retrie
 
 <!-- more -->
 
-{{ image(src="/img/Google_Apps_Script_Temp.png", position="left") }}
+{{ image(src="/img/Google_Apps_Script_Temp.png", position="left", alt="Summary diagram of project including hardware and software.", style="border-radius: 8px;") }}
 
 For communication with my Nest Thermostat, I didn’t implement the [OAuth2.0](https://oauth.net/2/) standard completely inside the Apps Script; although this would be possible using [apps-script-oauth2](https://github.com/googlesamples/apps-script-oauth2). Following the [REST Quick Guide](https://developers.nest.com/documentation/cloud/how-to-auth), I generated a [PIN for my Nest](https://developers.nest.com/documentation/cloud/authorization-overview#pin-based-authorization) and then used [Postman](https://www.getpostman.com/) to initiate the POST call for the Access Token to be used in the script.
 
 Here are the results after a few days:
 
-<iframe width="697" height="431" seamless frameborder="0" scrolling="no" style="margin: 0 auto" src="https://docs.google.com/spreadsheets/d/1ir8ENcChkleHsPGUWlmbGlXQQTnxPHI-o29nMX9jvO8/pubchart?oid=280457042&format=interactive"></iframe>
+<iframe width="697" height="431" seamless frameborder="0" scrolling="no" style="margin: 0 auto; border-radius: 8px;" src="https://docs.google.com/spreadsheets/d/1ir8ENcChkleHsPGUWlmbGlXQQTnxPHI-o29nMX9jvO8/pubchart?oid=280457042&format=interactive"></iframe>
 
 The [Google Sheet](https://docs.google.com/spreadsheets/d/1ir8ENcChkleHsPGUWlmbGlXQQTnxPHI-o29nMX9jvO8/edit) is here (create a copy to view Script Editor and make changes) and I also posted the code as a [Gist here](https://gist.github.com/kylejcarlton/12a85c4a5b375eaff62ee509d76a6720). API keys, device ID’s etc. are all variables to be defined at the beginning of the Script.

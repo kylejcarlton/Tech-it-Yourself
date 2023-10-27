@@ -18,10 +18,10 @@ Total cost of power over that period of approximately 14,136 hours was calculate
 
 <!-- more -->
 
-{{ image(src="/img/BTCMinerPowerUsage.png", position="left") }}
+{{ image(src="/img/BTCMinerPowerUsage.png", position="left", alt="Power usage over time chart.", style="border-radius: 8px;") }}
 
 Thanks to the technology behind Bitcoin, you can see the full contents of the wallet where mining profits were deposited on [BlockChain.info](https://www.blockchain.com/explorer) @ [1BsWqHJh5kwLNHZzj6Q6DGaxRZVTK9U9A6](https://blockchain.info/address/1BsWqHJh5kwLNHZzj6Q6DGaxRZVTK9U9A6) and a graph over time.
 
-{{ image(src="/img/BTCMinerProfitability.png", position="left") }}
+{{ image(src="/img/BTCMinerProfitability.png", position="left", alt="Bitcoin balance over time chart.", style="border-radius: 8px;") }}
 
 With the exchange rate of Bitcoins to USD at the time of writing this, the Return on Investment (ROI) with a balance of 0.24359921 BTC is about negative (-) $896. Breaking even would require the exchange rate to reach $3,844 USD / BTC; historically speaking the highest was around $1,100 in late 2013. Never say never though, here’s the [current price from CoinDesk](https://www.coindesk.com/price/bitcoin/).

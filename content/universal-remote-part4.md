@@ -20,7 +20,7 @@ Since I’d like to connect over WiFi I’ve added a [Belkin USB F7D2101](https:
 
 <!-- more -->
 
-{{ image(src="/img/RemoteBuildWirelessBT.jpg", position="left") }}
+{{ image(src="/img/RemoteBuildWirelessBT.jpg", position="left", alt="Photograph of hardware with Bluetooth and Wireless USB devices.", style="border-radius: 8px;") }}
 
 - With the Pi temporarily connected by Ethernet cable, I [set up the wireless connection via the command line](https://www.raspberrypi.com/documentation/computers/configuration.html) over SSH.
 

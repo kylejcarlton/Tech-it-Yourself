@@ -9,7 +9,8 @@ tags = ["Nest", "Google", "API", "DeviceAccess", "OAuth2", "Temperature", "Humid
 
 Since [Works with Nest (WWN)](https://developers.nest.com/) is retiring, I decided to configure [Device Access](https://developers.google.com/nest/device-access/get-started) and check out the [Smart Device Management (SDM) Application Programming Interface (API)](https://developers.google.com/nest/device-access/api). The Quick Start Guide on the Device Access page is very comprehensive, and here's what I did to get a log of temperature and humidity from my Nest thermostat and corresponding outdoor values.
 
-{{ image(src="/img/NestandOutside.png", position="left") }}
+{{ image(src="https://raw.githubusercontent.com/kylejcarlton/Google-SDM-API-Bash/main/HumidityTemperaturePlot.png", position="left", alt="Inside and outside conditions chart.", style="border-radius: 8px;") }}
+<!-- {{ image(src="/img/NestandOutside.png", position="left", alt="Inside and outside conditions chart.", style="border-radius: 8px;") }} -->
 <!-- more -->
 
 First I paid the seemingly unavoidable one-time, non-refundable $5 USD fee and accepted both the [Google API](https://developers.google.com/terms) and [Device Access Sandbox](https://developers.google.com/nest/device-access/tos) Terms of Service.

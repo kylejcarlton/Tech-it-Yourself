@@ -25,7 +25,7 @@ Parts List:
 
 <!-- more -->
 
-{{ image(src="/img/OpensourceRemoteParts.png", position="left") }}
+{{ image(src="/img/OpensourceRemoteParts.png", position="left", alt="Photograph of parts.", style="border-radius: 8px;") }}
 
 Here's [the circuit](https://upverter.com/alexbain/f24516375cfae8b9/Open-Source-Universal-Remote/#/) I’ll be building:
 

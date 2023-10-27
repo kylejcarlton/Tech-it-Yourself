@@ -120,8 +120,6 @@ sudo /etc/init.d/lirc start
 ```
 
 To finish of the hardware build I made a case out of Lego bricks, so it stays oriented vertically and has some protection.
-{{ image(src="/img/UniversalRemoteLegoCase.png", position="left") }}
+{{ image(src="/img/UniversalRemoteLegoCase.png", position="left", alt="Photograph of hardware assembled with a stand made of Lego.", style="border-radius: 8px;") }}
 
 Now control of IR devices is possible from a website, next up controlling Bluetooth devices the same way using [GIMX](http://gimx.fr/wiki/index.php?title=Command_line).
-
-{{ image(src="https://raw.githubusercontent.com/kylejcarlton/zola-theme-terminimal/master/img/UniversalRemoteWebsite.png", position="left"

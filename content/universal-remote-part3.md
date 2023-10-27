@@ -12,8 +12,8 @@ With all the components and tools needed, the first step was assembling the Adaf
 
 <!-- more -->
 
-{{ image(src="/img/SolderingSupplies.png", position="left") }}
-
-{{ image(src="/img/UniversalRemoteHardwareAssembled.png", position="left") }}
+{{ image(src="/img/SolderingSupplies.png", position="left", alt="Photograph of soldering supplies.", style="border-radius: 8px;") }}
+&nbsp;
+{{ image(src="/img/UniversalRemoteHardwareAssembled.png", position="left", alt="Photograph of hardware assembled.", style="border-radius: 8px;") }}
 
 With the hardware assembled the next step is to install [Raspbian](https://www.raspberrypi.com/software/) as the OS on the SD card and the application [LIRC](http://www.lirc.org/) for controlling the hardware to test functionality.
