@@ -3,7 +3,7 @@ title = "About Me"
 path = "about"
 +++
 
-By day I’m a software enginer and after work I enjoy DiY projects of all kinds, riding my bike and live music. I started this site to document my open source projects and ideas.
+Software engineer with extensive experience working in the medical device/software space. I enjoy DiY projects, road biking, snowboarding and live music. I started this site to document my open source projects and ideas. 
 
 {{ image(src="/img/profile.jpeg", position="left", alt="Picture of me in California, USA.", style="border-radius: 8px;") }}
 
